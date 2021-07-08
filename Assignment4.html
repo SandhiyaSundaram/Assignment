@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web Page</title>
+</head>
+<body bgcolor="silver">
+
+	<a name="Building Your First Web Page"></a>
+	<p style="text-align: justify;">
+		1. Building Your First Web Page
+		<br>
+		<br>
+		If you can, imagine a time before the invention of the Internet. Websites didn’t exist, and books, printed on paper and tightly bound, were your primary source of information. It took a considerable amount of effort—and reading—to track down the exact piece of information you were after. Today you can open a web browser, jump over to your search engine of choice, and search away. Any bit of imaginable information rests at your fingertips. And chances are someone somewhere has built a website with your exact search in mind. Within this book I’m going to show you how to build your own websites using the two most dominant computer languages—HTML and CSS. Before we begin our journey to learn how to build websites with HTML and CSS, it is important to understand the differences between the two languages, the syntax of each language, and some common terminology. HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images. CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, for example, fonts or colors. The two languages—HTML and CSS—are independent of one another and should remain that way. CSS should not be written inside of an HTML document and vice versa. As a rule, HTML will always represent content, and CSS will always represent the appearance of that content. With this understanding of the difference between HTML and CSS, let’s dive into HTML in more detail.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+	<a name="2. Getting To Know HTML"></a>
+    <p style="text-align: justify;">
+		2. Getting To Know HTML
+		<br>
+		<br>
+		With our introduction to HTML and CSS complete, it’s time to dig a little deeper into HTML and examine the different components that make up this language. In order to start building websites, we need to learn a little about which HTML elements are best used to display different types of content. It’s also important to understand how elements are visually displayed on a web page, as well as what different elements mean semantically. Using the proper element for the job goes a long way, and we’ll want to make well-informed decisions in the process. Moving forward, as new elements are introduced, we’ll talk about what those elements actually mean and the type of content they best represent. Before we do that, though, let’s look at two elements divand span that actually don’t hold any semantic value. They exist for styling purposes only. Divisions, or div and span are HTML elements that act as containers solely for styling purposes. As generic containers, they do not come with any overarching meaning or semantic value. Paragraphs are semantic in that content wrapped within a p element is known and understood as a paragraph. div and span do not hold any such meaning and are simply containers.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="3. Getting to Know CSS"></a>
+	<p style="text-align: justify;">
+		3. Getting to Know CSS
+		<br>
+		<br>
+		CSS is a complex language that packs quite a bit of power. It allows us to add layout and design to our pages, and it allows us to share those styles from element to element and page to page. Before we can unlock all of its features, though, there are a few aspects of the language we must fully understand. First, it’s crucial to know exactly how styles are rendered. Specifically, we’ll need to know how different types of selectors work and how the order of those selectors can affect how our styles are rendered. We’ll also want to understand a few common property values that continually appear within CSS, particularly those that deal with color and length. We’ll begin breaking down exactly how styles are rendered by looking at what is known as the cascade and studying a few examples of the cascade in action. Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses. The cascade also works with properties inside individual selectors. Again, for example, say we select all the paragraph elements and set their background color to orange. Then directly below the orange background property and value declaration, we add another property and value declaration setting the background color to green
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+    
+    <a name="4. Opening the Box Model"></a>
+	<p style="text-align: justify;">
+		4. Opening the Box Model
+		<br>
+		<br>
+		We’ve familiarized ourselves with HTML and CSS; we know what they look like and how to accomplish some of the basics. Now we’re going to go a bit deeper and look at exactly how elements are displayed on a page and how they are sized. In the process we’ll discuss what is known as the box model and how it works with HTML and CSS. We’re also going to look at a few new CSS properties and use some of the length values we covered in Lesson 3. Let’s begin.Before jumping into the box model, it helps to understand how elements are displayed. In Lesson 2 we covered the difference between block-level and inline-level elements. To quickly recap, block-level elements occupy any available width, regardless of their content, and begin on a new line. Inline-level elements occupy only the width their content requires and line up on the same line, one after the other. Block-level elements are generally used for larger pieces of content, such as headings and structural elements. Inline-level elements are generally used for smaller pieces of content, such as a few words selected to be bold or italicized.
+	</p>
+    <a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="5. Positioning Content"></a>
+	<p style="text-align: justify;">
+		5. Positioning Content
+		<br>
+		<br>
+		One of the best things about CSS is that it gives us the ability to position content and elements on a page in nearly any imaginable way, bringing structure to our designs and helping make content more digestible. There are a few different types of positioning within CSS, and each has its own application. In this chapter we’re going to take a look at a few different use cases—creating reusable layouts and uniquely positioning one-off elements—and describe a few ways to go about each. One way to position elements on a page is with the float property. The float property is pretty versatile and can be used in a number of different ways. Essentially, the float property allows us to take an element, remove it from the normal flow of a page, and position it to the left or right of its parent element. All other elements on the page will then flow around the floated element. An im> element floated to the side of a few paragraphs of text, for example, will allow the paragraphs to wrap around the image as necessary. When the float property is used on multiple elements at the same time, it provides the ability to create a layout by floating elements directly next to or opposite each other, as seen in multiple-column layouts. The float property accepts a few values; the two most popular values are left and right, which allow elements to be floated to the left or right of their parent element.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="6. Working with Typography"></a>
+	<p style="text-align: justify;">
+		6. Working with Typography
+		<br>
+		<br>
+		The field of web typography has grown substantially over time. There are a couple of different reasons for its rise in popularity; one widely acknowledged reason is the development of a system for embedding our own web fonts on a website. In the past we were limited to a small number of typefaces that we could use on a website. These typefaces were the most commonly installed fonts on computers, so they were the most likely to render properly on-screen. If a font wasn’t installed on a computer, it wouldn’t render on the website either. Now, with the ability to embed fonts, we have a much larger palette of typefaces to choose from, including those that we add to a website. While the ability to embed fonts gives us access to countless new typefaces, it’s also important for us to know the basic principles of typography. In this lesson we’re going to take a look at some of these basic principles and how to apply them to our web pages using HTML and CSS. Typically one of the first decisions we’ll make when building a website is choosing the primary typeface and text color to be used. While there are a number of other properties that can be changed—size, weight, and so on—the typeface and text color generally have the largest impact on the look and legibility of a page. Getting rid of the browser defaults and using our own typeface and text color immediately begins setting the tone of our page.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="7. Setting Backgrounds & Gradients"></a>
+	<p style="text-align: justify;">
+		7. Setting Backgrounds & Gradients
+		<br>
+		<br>
+		Backgrounds have a significant impact on the design of a website. They help create a site’s look and feel, establish groupings, and assign priority, and they have a considerable influence on a website’s usability. Within CSS, element backgrounds can be a solid color, an image, a gradient, or a combination of these. As we decide how to implement these backgrounds, we should keep in mind that every background contributes to the overall appearance of our website. In this lesson we’re going to take a look at how to assign different types of backgrounds, including gradients, to elements; we’ll also play around with a handful of CSS3 properties specific to backgrounds. The quickest way to add a background to an element is to add a single-color background using the background or background-color property. The background property accepts colors and images in shorthand form, while the background-color property is used strictly for setting solid background colors. Either property will work, and which one you decide to use depends on your preference as well as the case for which you’re using it. The quickest way to add a background to an element is to add a single-color background using the background or background-color property. The background property accepts colors and images in shorthand form, while the background-color property is used strictly for setting solid background colors. Either property will work, and which one you decide to use depends on your preference as well as the case for which you’re using it.
+	</p>	
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="8. Creating Lists"></a>
+	<p style="text-align: justify;">
+		8. Creating Lists
+		<br><br>
+		Lists are a part of everyday life. To-do lists determine what to get done. Navigational routes provide turn-by-turn lists of directions. Recipes provide lists of ingredients and lists of instructions. With a list for nearly everything, it’s easy to understand why they are also popular online. When we want to use a list on a website, HTML provides three different types to choose from: unordered, ordered, and description lists. Choosing which type of list to use—or whether to use a list at all—comes down to the content and the most semantically appropriate option for displaying that content. In addition to the three different types of lists available within HTML, there are multiple ways to style these lists with CSS. For example, we can choose what type of marker to use on a list. The marker could be square, round, numeric, alphabetical, or perhaps nonexistent. Also, we can decide if a list should be displayed vertically or horizontally. All of these choices play significant roles in the styling of our web pages. An unordered list is simply a list of related items whose order does not matter. Creating an unordered list in HTML is accomplished using the unordered list block-level element, ul. Each item within an unordered list is individually marked up using the list item element, li. By default, most browsers add a vertical margin and left padding to the ul element and precede each li element with a solid dot. This solid dot is called the list item marker, and it can be changed using CSS.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="9. Adding Media"></a>
+	<p style="text-align: justify;">
+		9. Adding Media
+		<br><br>
+		We browse the Internet in search of interesting and informative content, which we usually find in the form of plain text. To accompany this plain text, HTML provides ways to embed rich media in the form of images, audio tracks, and videos, as well as to embed content from another web page in the form of an inline frame. The ability to include images, audio tracks, videos, and inline frames within websites has been around for some time. Browser support for images and inline frames has generally been pretty good. And while the ability to add audio tracks and videos to a website has been around for years, the process has been fairly cumbersome. Fortunately, this process has improved and is much easier with support directly from HTML. Today, we can freely use images, audio, video, and inline frames knowing that this content is supported across all major browsers. To add images to a page, we use the img inline element. The img element is a self-containing, or empty, element, which means that it doesn’t wrap any other content and it exists as a single tag. For the img element to work, a src attribute and value must be included to specify the source of the image. The src attribute value is a URL, typically relative to the server where a website is hosted. In conjunction with the src attribute, the alt (alternative text) attribute, which describes the contents of an image, should be applied. The alt attribute value is picked up by search engines and assistive technologies to help convey the purpose of an image. The alt text will be displayed in place of the image if for some reason the image is not available.
+	</p>
+    <a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="10. Building Forms"></a>
+	<p style="text-align: justify;">
+		10. Building Forms
+		<br><br>
+		Forms are an essential part of the Internet, as they provide a way for websites to capture information from users and to process requests, and they offer controls for nearly every imaginable use of an application. Through controls or fields, forms can request a small amount of information—often a search query or a username and password—or a large amount of information—perhaps shipping and billing information or an entire job application. We need to know how to build forms in order to acquire user input. In this lesson we’ll discuss how to use HTML to mark up a form, which elements to use to capture different types of data, and how to style forms with CSS. We won’t get too deep into how information from a form is processed and handled on the back end of a website. Form processing is a deeper topic, outside the realm of this book; for now we’ll stick to the creation and styling of forms. A handful of different attributes can be applied to the form element, the most common of which are action and method. The action attribute contains the URL to which information included within the form will be sent for processing by the server. The method attribute is the HTTP method browsers should use to submit the form data. Both of these form attributes pertain to submitting and processing data.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="11. Organizing Data with Tables"></a>
+	<p style="text-align: justify;">
+		11. Organizing Data with Tables
+		<br><br>
+		HTML tables were created to provide a straightforward way to mark up structured tabular data and to display that data in a form that is easy for users to read and digest. When HTML was being developed, however, CSS was not widely supported in browsers, so tables were the primary means by which websites were built. They were used for positioning content as well as for building the overall layout of a page. This worked at the time, but it was not what table markup was intended for, and it led to many other associated problems. Fortunately, we have come a long way since then. Today tables are used specifically for organizing data (like they should be), and CSS is free to get on with the jobs of positioning and layout. Building data tables still has its challenges. How a table should be built in HTML depends largely on the data and how it is to be displayed. Then, once they’re marked up in HTML, tables need to be styled with CSS to make the information more legible and understandable to users. Tables are made up of data that is contained within columns and rows, and HTML supplies several different elements for defining and structuring these items. At a minimum a table must consist of table, tr (table row), and td (table data) elements. For greater structure and additional semantic value, tables may include the <th> (table header) ele- ment and a few other elements as well. When all of these elements are working together, they produce a solid table.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+    <a name="12. Writing Your Best Code"></a>
+	<p style="text-align: justify;">
+		12. Writing Your Best Code
+		<br><br>
+		There’s a lot to learn—different elements, attributes, properties, values, and more—in order to write HTML and CSS. Every lesson until this point has had the primary objective of explaining these various components of HTML and CSS, in hopes of helping you to understand the core fundamentals of both languages. This lesson takes a step back and looks at a more abstract picture of HTML and CSS. More specifically, this lesson focuses on the best coding practices for both HTML and CSS. These coding practices serve as an overarching framework for writing HTML and CSS. They apply to every lesson and should always be kept in mind when programming. When you’re reviewing these best practices think about how they may be used in other areas or programming languages, too. For example, the use of comments to organize code (as we cover in this lesson) is beneficial in all programming languages. Keep an open mindset and consider how you can fully utilize each practice. A lot of coding best practices emphasize keeping code lean and well organized. The general practices within HTML are no different. The goal is to write well-structured and standards-compliant markup. The guidelines described here provide a brief introduction to HTML coding practices; this is by no means an exhaustive list.
+	</p>
+	<a href="Assignment3.html#top" style="text-decoration: none;">Go to Table of Content</a>
+
+	<h1 align="center">Answer</h1>
+
+<a name="1. What is HTML?"></a>
+<p style="text-align: justify;">
+    1. What is HTML?
+    <br>
+	    Answer: HTML is the abbreviation for Hypertext Markup Language. It is the typical documents’ markup language for developing web pages to display on the web browser. The extensions used to save HTML pages are .html and .htm
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="2. What is the key difference between HTML Elements and Tags?"></a>
+<p style="text-align: justify;">
+    2.  What is the key difference between HTML Elements and Tags?
+    <br>
+        Answer: HTML Elements : The sections of the web page, such as a paragraph, an image, or a link is an element, and an element has a certain way of execution. For example, the link is used to be clicked, and the text boxes can be used to input text.
+        HTML Tags : HTML elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets .
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="3. What are Attributes in HTML?"></a>
+<p style="text-align: justify;">
+    3.  What are Attributes in HTML?
+    <br>
+        Answer: An additional attribute is given to each tag to alter the behavior of the tag. Attributes are defined directly after the tag name, inside the angular brackets. They appear in opening tags and can never appear in closing tags.
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="4. What is an Anchor tag in HTML?"></a>
+<p style="text-align: justify;">
+    4. What is an Anchor tag in HTML?       
+    <br>
+        Answer: An anchor tag is used to link two sections, web pages, or website templates in HTML. Its format is: a href=”#” target=”link” /a Where ‘href’ is an attribute of the anchor tag used to identify the sections in a document, the ‘link’ is defined in the target attribute, which is to be linked.  
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="5. What is a Tag in HTML?"></a>
+<p style="text-align: justify;">
+    5. What is a Tag in HTML?
+    <br>
+        Answer: In an HTML page, tags used are to place the content and format the pages. They always defined between (<) and (>) symbols. An opening tag must be preceded with a closing tag and indicated with a ‘/’ symbol. A tag instructs the browser to format the HTML.
+        Tags have many uses, such as changing the appearance of text, displaying a graphic, or linking another page. 	
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="6. What are Forms in HTML?"></a>
+<p style="text-align: justify;">
+    6. What are Forms in HTML?
+    <br>
+        Answer: Forms are used to collect the user information when they are filled, and details are provided to save into the database.       
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="7. What is the Use of Comments in HTML?"></a>
+<p style="text-align: justify;">
+    7. What is the Use of Comments in HTML?
+    <br>
+        Answer: Comments are used in an HTML document to make important notes and help developers mention any modification to be incorporated afterward. They are not displayed in the browser when the code is executed.
+        A comment is always written in between the ‘—‘ symbol at the beginning and end of the angular brackets.
+        Syntax: <!—‘Comment’ !–>     
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="8. What is Semantic HTML?"></a>
+<p style="text-align: justify;">
+    8. What is Semantic HTML?
+    <br>
+        Answer: Semantic HTML is one style of coding, where the tags convey the meaning of the text. HTML uses semantics to reinforce the semantics or purpose of the content. 
+        For Example: b, /b and i, /i tags which are used to bold and italic statements in HTML are replaced with strong,/strong and em,/em tags in semantic HTML. This is because they represent formatting and provide no meaning or structure.       	
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="9. Why is the Embed Tag Used in HTML?"></a>
+<p style="text-align: justify;">
+    9. Why is the Embed Tag Used in HTML?
+    <br>
+        Answer: An Embed Tag is used for including a Video or Audio in an HTML Document. A source of audio or video file to be displayed on the webpage is defined within an Embed tag as: EMBED Source /EMBED.
+</p>
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+<a name="10. What are Lists in HTML?"></a>
+<p style="text-align: justify;">
+    10. What are Lists in HTML?
+    <br>
+        Answer: HTML lists are used to group a set of related items in lists. It is defined with an li tag.
+
+                Some commonly used HTML lists:
+
+                    Ordered List
+                    Unordered List
+                    Description List
+                    Menu List
+                    Directory List
+</p>
+
+<a href="Assignment3.html#top" style="text-decoration: none;"> Go to Top</a>
+
+</body>
+</html>
